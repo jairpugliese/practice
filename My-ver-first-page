@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página web Jair</title>
+    <link rel="shortcut icon" href="img/jairlogoweb.png" type="img/JairPuglieseCamargo.icon">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700&display=swap');
+      </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Portafolio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>¡Hola! Esta es mi primera página</h1>
+            <h2>Mi primer proyecto</h2>
+
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.85 C150.00,149.60 349.20,-49.85 500.00,49.85 L500.00,149.60 L0.00,149.60 Z"
+                    style="stroke: none; fill: hsl(0, 0%, 100%);"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">sobre mí</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/imagen1.svg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Los mejores productos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas recusandae fugit minus nobis
+                        animi unde ducimus. Ad minus recusandae excepturi odio impedit itaque aliquid, debitis commodi,
+                        nisi illum accusantium corporis.</p>
+                    <h3><span>2</span>Los mejores productos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas recusandae fugit minus nobis
+                        animi unde ducimus. Ad minus recusandae excepturi odio impedit itaque aliquid, debitis commodi,
+                        nisi illum accusantium corporis.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Portafolio</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/img1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/jairlogoweb.png" alt="">
+                            <p>mis proyectos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/jairlogoweb.png" alt="">
+                            <p>mis proyectos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img3.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/jairlogoweb.png" alt="">
+                            <p>mis proyectos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img4.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/jairlogoweb.png" alt="">
+                            <p>mis proyectos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img5.jp.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/jairlogoweb.png" alt="">
+                            <p>mis proyectos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img6.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/jairlogoweb.png" alt="">
+                            <p>mis proyectos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img7.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/jairlogoweb.png" alt="">
+                            <p>mis proyectos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img8.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/jairlogoweb.png" alt="">
+                            <p>mis proyectos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div clas="cliente contenedor">
+            <h2 class="titulo">que dicen nuestros clientes</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/face1.jpg" alt="">
+                    <div class="contenido-texto-card">
+                    <h4>Cliente 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, cum.</p>
+                </div>
+            </div>
+                <div class="card">
+                    <img src="img/face2.jpg" alt="">
+                    <div class="contenido-texto-card">
+                    <h4>Cliente 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, cum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-services">
+        <div class="contenedor">
+            <h2 class="titulo">Nuestros Servicios</h2>
+            <div class="servicio-cont">
+                <div class="servicio-individual">
+                    <img src="img/servicio1.svg" alt="">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, incidunt!</p>
+                </div>
+                <div class="servicio-individual">
+                    <img src="img/servicio2.svg" alt="">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, incidunt!</p>
+                </div>
+                <div class="servicio-individual">
+                    <img src="img/servicio3.svg" alt="">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, incidunt!</p>
+                </div>
+                <div class="servicio-individual">
+                    <img src="img/servicio4.svg" alt="">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, incidunt!</p>
+                </div>
+            </div>
+        </div>
+    </sectionm>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-footer">
+                <h4>Phone number</h4>
+                <p>3043481993</p>
+            </div>
+            <div class="content-footer">
+                <h4>Mail</h4>
+                <p>jairpugliese@gmail.com</p>
+            </div>
+            <div class="content-footer">
+                <h4>Addres</h4>
+                <p>3karrera 223 calle 4333 </p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; JairPuglieseCamargo | Primera Pagina Web</h2>
+    </footer>
+</body>
+
+</html>
